@@ -1,0 +1,4 @@
+%[ Pre(1) BufferIn(2) P1(3) P2(4) P3(5) P4(6) P5(7) P6(8) BufferOut(9)
+%Post(10) R1_Position(11) R2_Position(12) 剩余C数(13) 剩余D数（14）
+% R1_time(1) R2_time(2) Pre_time(3) BufferIn_time(4) P1_time(5) P2_time(6)
+%P3_time(7) P4_time(8) P5_time(9) P6_time(10) BufferOut_time(11) Post_time(12) 上一深度状态(13)]

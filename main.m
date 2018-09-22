@@ -1,25 +1,28 @@
 global state;
-state = cell(65,1);
-state{1,1} = [0,0,0,0,0,0,0,0,0,0,0,0,8;
-      0,0,0,0,0,0,0,0,0,0,0,0,0];
+global flag;
+flag = 2;
+state = cell(73,1);
+state{1,1} = [0,0,0,0,0,0,0,0,0,0,0,0,4,4;
+      0,0,0,0,0,0,0,0,0,0,0,0,0,0];
   depth = 2;
-  while(depth<=65)
+  while(depth<=73)
       depth
       state_initial(depth);
-      select2(depth);
+      select(depth);
       depth = depth +1;
   end
 disp('程序运行完成，完工时间：');
-state{depth-1,1}(2,1)
+state{depth-1,2}(2,1)
 
+    
 
-% t = cell(65,1);
-% t{65,1} = state{65,1};
-% for i = 64:-1:1
+% t = cell(73,1);
+% t{73,1} = state{73,5};
+% for i = 72:-1:1
 %     t{i,1} = state{i,t{i+1,1}(2,13)};
 % end
 % 
-% for i = 1:65
+% for i = 1:73
 %     i
 %     t{i,1}(2,1)
 %     t{i,1}(2,2)
@@ -30,8 +33,11 @@ global from;
 global to;
 global time;
 global R;
+global piece;
+
 from=cell(depth-2,1);
 to=cell(depth-2,1);
 time=cell(depth-2,1);
 R=cell(depth-2,1);
+piece=cell(depth-2,1);
 track(depth);
