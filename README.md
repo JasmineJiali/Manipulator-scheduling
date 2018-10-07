@@ -1,6 +1,9 @@
 # Manipulator-scheduling
 non-classic manipulator scheduling, using greedy and pruning algorithm, based on Plato path
 
+Problem Background:
+---------------
+
 ![image](http://github.com/JasmineJiali/Manipulator-scheduling/raw/master/img.png)
       
 In Figure 1, In and Out are the entrance and exit of the product, In stores the product to be processed, and Out stores the finished
@@ -21,4 +24,5 @@ the best scheduling scheme among them under different situations.
 There are three kinds of processing modes here in total, in different folders. We need to find the best scheduling schemes under these three modes.
 
 Problem solving sequence：
+-------------------------
 single-processing-mode  =>  multi-processing-mode  =>  multi-products-processing-mode
