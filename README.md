@@ -19,3 +19,6 @@ processing task in the shortest time. Obviously, there are many feasible schedul
 the best scheduling scheme among them under different situations.
 
 There are three kinds of processing modes here in total, in different folders. We need to find the best scheduling schemes under these three modes.
+
+Problem solving sequence：
+single-processing-mode  =>  multi-processing-mode  =>  multi-products-processing-mode
