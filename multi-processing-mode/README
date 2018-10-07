@@ -1,3 +1,6 @@
 #multi-processing-mode
 
 This folder contains files for multi-processing mode, where products can be processed by two different methods.
+
+To solve the optimal scheduling of 8 products B. The process path and time of product B are
+B: In → Pre (60s) → Buffer → P1 /P2 (500s) →P3/P4 (660s) → P5/P6 (570s) → Buffer → Post (100s) → Out
